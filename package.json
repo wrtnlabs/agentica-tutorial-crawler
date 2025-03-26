@@ -1,0 +1,23 @@
+{
+  "name": "agentica-tutorial-crawler",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "ts-patch install",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@agentica/core": "^0.12.21",
+    "@wrtnlabs/connector-web-crawler": "^0.1.482",
+    "dotenv": "^16.4.7",
+    "openai": "^4.89.0",
+    "typia": "^8.0.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "ts-patch": "^3.3.0",
+    "typescript": "^5.8.2"
+  }
+}
