@@ -9,11 +9,11 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@agentica/core": "^0.12.21",
+    "@agentica/core": "^0.16.3",
     "@wrtnlabs/connector-web-crawler": "^0.1.482",
     "dotenv": "^16.4.7",
-    "openai": "^4.89.0",
-    "typia": "^8.0.3"
+    "openai": "^4.92.1",
+    "typia": "^9.1.0"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
