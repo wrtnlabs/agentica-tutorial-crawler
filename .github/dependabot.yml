@@ -1,0 +1,29 @@
+version: 2
+updates:
+  #######################################################
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 25
+    versioning-strategy: increase
+    allow:
+      - dependency-name: "@agentica/*"
+      - dependency-name: "openai"
+      - dependency-name: "typia"
+      - dependency-name: "typescript"
+      - dependency-name: "ts-patch"
+      - dependency-name: "@wrtnlabs/connector*"
+    groups:
+      Agent:
+        patterns:
+          - "@agentica/*"
+          - "openai"
+          - "typia"
+      Connector:
+        patterns:
+          - "@wrtnlabs/connector*"
+      TypeScript:
+        patterns:
+          - "typescript"
+          - "ts-patch"
