@@ -12,7 +12,7 @@
     "@agentica/core": "^0.23.0",
     "@wrtnlabs/connector-web-crawler": "^0.1.506",
     "dotenv": "^16.4.7",
-    "openai": "^4.97.0",
+    "openai": "^4.98.0",
     "typia": "^9.2.0"
   },
   "devDependencies": {
