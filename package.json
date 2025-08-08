@@ -9,10 +9,10 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@agentica/core": "^0.30.8",
+    "@agentica/core": "^0.31.0",
     "@wrtnlabs/connector-web-crawler": "^0.1.506",
     "dotenv": "^16.4.7",
-    "openai": "^5.12.0",
+    "openai": "^5.12.1",
     "typia": "^9.7.0"
   },
   "devDependencies": {
